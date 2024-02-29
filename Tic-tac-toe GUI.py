@@ -136,5 +136,3 @@ def window_start():
 
 
 window_start()
-
-# root.update()
