@@ -50,7 +50,7 @@ class Game:
             return False
 
     def play(self):
-        print(f'╔{'═' * 36}╗', '║ Игра в крестики-нолики начинается! ║', f'╚{'═' * 36}╝', sep='\n')
+        print(f'╔{"═" * 36}╗', '║ Игра в крестики-нолики начинается! ║', f'╚{"═" * 36}╝', sep='\n')
         while True:
             print(f'Ход игрока: {self.player_1.name}!')
             self.player_1.choose(1)
